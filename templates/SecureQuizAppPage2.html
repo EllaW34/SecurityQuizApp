@@ -1,0 +1,15 @@
+{% extends "SecureAppLayout.html" %}
+
+{% block title %}Page 2{% endblock %}
+
+{% block content %}
+
+<h1>Page 2</h1>
+<form action={{ url_for("renderPage3") }} method="POST">
+    Question 2:<br>
+    <input type="text" name="q2">
+    <br>
+    <input type="submit" value="Submit">
+</form>
+   
+{% endblock %}
