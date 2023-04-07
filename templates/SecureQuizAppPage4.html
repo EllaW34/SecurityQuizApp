@@ -1,15 +1,19 @@
-{% extends "SecureAppLayout.html" %}
+{% extends "SecureQuizAppLayout.html" %}
 
 {% block title %}Page 4{% endblock %}
 
 {% block content %}
-
-<h1>Page 4</h1>
+<body id="p4">
+    
+   <h1>Page 4</h1>
 <form action={{ url_for("renderPage5") }} method="POST">
     Question 4:<br>
-    <input type="text" name="q4">
-    <br>
+    What’s the smallest state in America?<br><br>
+    <input type="text" name="a4">
+    <br><br>
     <input type="submit" value="Submit">
 </form>
-   
+    
+  </body>
+
 {% endblock %}

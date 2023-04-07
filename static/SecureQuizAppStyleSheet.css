@@ -1,0 +1,33 @@
+body{
+    color: white;
+}
+
+#home {
+    background-color: rgb(252, 148, 144);
+}
+
+#p1 {
+    background-color: rgb(255, 255, 135);
+    color: black;
+}
+
+#p2 {
+    background-color: rgb(135, 173, 255);
+}
+
+#p3 {
+    background-color: rgb(250, 145, 227);
+}
+
+#p4 {
+    background-color: rgb(250, 179, 112);
+}
+
+#p5 {
+    background-color: rgb(169, 255, 163);
+    color: black;
+}
+
+#p6 {
+    background-color: rgb(192, 130, 250);
+}

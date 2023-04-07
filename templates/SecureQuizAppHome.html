@@ -1,12 +1,15 @@
-{% extends "SecureAppLayout.html" %}
+{% extends "SecureQuizAppLayout.html" %}
 
 {% block title %}Home{% endblock %}
 
 {% block content %}
+<body id="home">
+    
 <h1>Home</h1>
 
-<ul>
-    <li><a href="/page1">Start The Quiz</a></li>
-<ul>
-   
+<form action="/page1" method="POST">
+    <input type="submit" value="Start The Quiz">
+</form>
+    
+</body>
 {% endblock %}

@@ -1,14 +1,36 @@
-{% extends "SecureAppLayout.html" %}
+{% extends "SecureQuizAppLayout.html" %}
 
 {% set active_page = "page6" %}
 
 {% block title %}Page 6{% endblock %}
 
 {% block content %}
+<body id="p6">
+  <h1>Score:</h1>
+<p>{{score}}</p>
 
-<h1>Answers:</h1>
+<br>
 
-<!--<ul>
-    <li>-->
+<p>You got answer 1 {{an1}}.<br>
+Acceptable Answers: Their/their
+<p>
+<br>
+<p>You got answer 2 {{an2}}.<br>
+Acceptable Answers: 1.9/less than 2/Less than 2<p>
+<br>
+<p>You got answer 3 {{an3}}.<br>
+Acceptable Answers: Fleshy/fleshy<p>
+<br>
+<p>You got answer 4 {{an4}}.<br>
+Acceptable Answers: Rhode Island/rhode island
+<p>
+<br>
+<p>You got answer 5 {{an5}}.<br>
+Acceptable Answers: True/true<p>
+<br>
+<a href="/startOver">Start Over</a>
    
+  </body>
+
+
 {% endblock %}

@@ -1,15 +1,21 @@
-{% extends "SecureAppLayout.html" %}
+{% extends "SecureQuizAppLayout.html" %}
 
 {% block title %}Page 1{% endblock %}
 
 {% block content %}
-
+<body id="p1">
+    
 <h1>Page 1</h1>
 <form action={{ url_for("renderPage2") }} method="POST">
     Question 1:<br>
-    <input type="text" name="q1">
-    <br>
+    The trees are losing ____ leaves!<br>
+    Which one of the following words correctly fills in the blank?<br>
+    They’re, Their, or There<br><br>
+    <input type="text" name="a1">
+    <br><br>
     <input type="submit" value="Submit">
 </form>
-   
+    
+</body>
+  
 {% endblock %}
