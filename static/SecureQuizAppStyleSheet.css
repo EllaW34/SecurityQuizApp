@@ -31,3 +31,11 @@ body{
 #p6 {
     background-color: rgb(192, 130, 250);
 }
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 25px;
+}

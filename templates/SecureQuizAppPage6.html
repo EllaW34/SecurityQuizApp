@@ -6,31 +6,42 @@
 
 {% block content %}
 <body id="p6">
-  <h1>Score:</h1>
-<p>{{score}}</p>
+  <h1>Results</h1>
+<p>Score: {{score}}</p>
 
 <br>
 
-<p>You got answer 1 {{an1}}.<br>
-Acceptable Answers: Their/their
-<p>
+
+<p>You got answer 1: {{an1}}.</p>
+<p>Question: The trees are losing ____ leaves! Which one of the following words correctly fills in the blank? They’re, Their, or There</p>
+<p>You wrote: {{ans1}}</p>
+<p>Acceptable Answers: Their/their</p>
 <br>
-<p>You got answer 2 {{an2}}.<br>
-Acceptable Answers: 1.9/less than 2/Less than 2<p>
+<p>You got answer 2: {{an2}}.</p>
+<p>Question: How many feet does the average person have? (Hint: It’s less than 2)</p>
+<p>You wrote: {{ans2}}</p>
+<p>Acceptable Answers: 1.9/less than 2/Less than 2</p>
 <br>
-<p>You got answer 3 {{an3}}.<br>
-Acceptable Answers: Fleshy/fleshy<p>
+<p>You got answer 3: {{an3}}.</p>
+<p>Question: Fruit with skin on it is described as ____ fruit.</p>
+<p>You wrote: {{ans3}}</p>
+<p>Acceptable Answers: Fleshy/fleshy</p>
 <br>
-<p>You got answer 4 {{an4}}.<br>
-Acceptable Answers: Rhode Island/rhode island
-<p>
+<p>You got answer 4: {{an4}}.</p>
+<p>Question: What’s the smallest state in America?</p>
+<p>You wrote: {{ans4}}</p>
+<p>Acceptable Answers: Rhode Island/rhode island</p>
 <br>
-<p>You got answer 5 {{an5}}.<br>
-Acceptable Answers: True/true<p>
+<p>You got answer 5: {{an5}}.</p>
+<p>Question: True or False: The average lifespan of a fly is two to four weeks.</p>
+<p>You wrote: {{ans5}}</p>
+<p>Acceptable Answers: True/true</p>
+<br>
+<p>Time taken: {{clock}} seconds</p>
 <br>
 <a href="/startOver">Start Over</a>
-   
-  </body>
+
+</body>
 
 
 {% endblock %}
